@@ -1,0 +1,313 @@
+/*
+
+=========================================================================
+          _ _   _____                    _         _____                 
+    /\   | (_) |  __ \                  | |       |  __ \                
+   /  \  | |_  | |  | | ___  _ __   __ _| |_ ___  | |__) |_ _  __ _  ___ 
+  / /\ \ | | | | |  | |/ _ \| '_ \ / _` | __/ _ \ |  ___/ _` |/ _` |/ _ \
+ / ____ \| | | | |__| | (_) | | | | (_| | ||  __/ | |  | (_| | (_| |  __/
+/_/    \_\_|_| |_____/ \___/|_| |_|\__,_|\__\___| |_|   \__,_|\__, |\___|
+                                                               __/ |     
+                                                              |___/      
+==========================================================================
+Theme Name : Ali Donate Page
+Theme Uri : 
+Author : Ali Javadi
+Author Uri : https://javadi.ml/
+CopyRight © 2020
+
+*/
+
+/* Site Font */
+@font-face {
+      font-family: 'Kamva';
+      src: url('font/Kamva.woff2') format('woff2'),
+              url('font/Kamva.woff') format('woff'),
+              url('font/Kamva.tff') format('ttf');
+              
+      font-weight: normal;
+      font-style: normal;
+}
+.color {
+      color: #85bb65 !important;
+}
+body {
+	background: #85bb65 !important;
+      font-family: Kamva !important;
+      color: #fff !important;
+}
+.h2-header {
+      position: absolute;
+      margin: 19px 21px;
+      text-align: right;
+      line-height: 3rem;
+ 
+}
+.piggyimg img {
+      margin: 115px 31px;
+      opacity: 0.5;
+      transition: all .6s;
+      -webkit-transition: all .6s;
+      -moz-transition: all .6s;
+      -ms-transition: all .6s;
+      -o-transition: all .6s;
+}
+.piggyimg img:hover {
+      transition: all .6s;
+      -webkit-transition: all .6s;
+      -moz-transition: all .6s;
+      -ms-transition: all .6s;
+      -o-transition: all .6s;
+      opacity: 1;
+      cursor: pointer;
+}
+.piggyimg img:active {
+      animation: shake 0.7s;
+      animation-iteration-count: infinite;
+      -webkit-animation: shake 0.7s;
+}
+.shadow {
+    box-shadow: 1px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.shadow:hover {
+     box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.2);
+     transform: translateY(-10px);
+     -webkit-transform: translateY(-10px);
+     -moz-transform: translateY(-10px);
+     -ms-transform: translateY(-10px);
+     -o-transform: translateY(-10px);
+     transition: all .6s;
+     -webkit-transition: all .6s;
+     -moz-transition: all .6s;
+     -ms-transition: all .6s;
+     -o-transition: all .6s;
+}
+@keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); -webkit-transform: translate(3px, 2px) rotate(0deg); -moz-transform: translate(3px, 2px) rotate(0deg); -ms-transform: translate(3px, 2px) rotate(0deg); -o-transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.dargah {
+    margin: -747px 36px;
+}
+.link {
+      position: absolute;
+      text-decoration: none;
+      padding: 8px 125px;
+      margin: 0 -160px;
+      border-radius: 37px;
+      transition: all .6s;
+      -webkit-transition: all .6s;
+      -moz-transition: all .6s;
+      -ms-transition: all .6s;
+      -o-transition: all .6s;
+}
+.link:hover {
+      text-decoration: none;
+      transition: all .6s;
+      -webkit-transition: all .6s;
+      -moz-transition: all .6s;
+      -ms-transition: all .6s;
+      -o-transition: all .6s;
+      border-radius: 50px 0px 50px 50px;
+      -webkit-border-radius: 50px 0px 50px 50px;
+      -moz-border-radius: 50px 0px 50px 50px;
+      -ms-border-radius: 50px 0px 50px 50px;
+      -o-border-radius: 50px 0px 50px 50px;
+}
+.payid {
+      
+      background: #172b4d;
+      color: #fff;
+      
+}
+.payid:hover {
+      color: #fff;
+}
+.box {
+    position: absolute;
+    background: #fff;
+    padding: 63px 189px;
+    border-radius: 13px;
+}
+.box h6 {
+      position: absolute;
+      margin: -48px -176px;
+}
+.scale img,svg {
+      transform: scale(0.4);
+      position: absolute;
+      margin: -90px 110px;
+      -webkit-transform: scale(0.4);
+      -moz-transform: scale(0.4);
+      -ms-transform: scale(0.4);
+      -o-transform: scale(0.4);
+}
+.ctc {
+    margin: -747px 424px;
+}
+.ctc-number , .ctc-name {
+      position: absolute;
+      font-size: 1.25rem;
+      margin: 4px -164px;
+}
+.ctc-number { cursor: pointer; }
+.danger {
+      position: absolute;
+      margin: 39px -175px;
+      font-size: 14px;
+}
+#text-change {
+    font-size: 1.50rem;
+    position: absolute;
+    margin: -27px -4px;
+}
+.fade{ animation:fading 4s infinite; -webkit-animation:fading 4s infinite; }
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.opa-none {
+      opacity: 0 !important;
+}
+.ctcimg img {
+    margin: -290px -104px;
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+}
+.paypal {
+      margin: -744px 814px;
+}
+.paypalimg img {
+    margin: -290px -99px;
+    transform: scale(0.08);
+    
+}
+.learn {
+      position: absolute;
+      background: cadetblue;
+      color: #fff;
+      padding: 8px 26px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      margin: 0 -171px;
+}
+.learn:hover {
+      color: #fff;
+      border-radius: 50px 0px 50px 50px;
+      -webkit-border-radius: 50px 0px 50px 50px;
+      -moz-border-radius: 50px 0px 50px 50px;
+      -ms-border-radius: 50px 0px 50px 50px;
+      -o-border-radius: 50px 0px 50px 50px;
+}
+.pay {
+    background: #003087;
+    color: #fff;
+    padding: 8px 71px;
+    margin: 0px -50px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.pay:hover {
+      background: -moz-linear-gradient(239deg, #009CDE 0, #003087 100%);/* FF3.6+ */
+background: -webkit-gradient(linear, 239deg, color-stop(0, 009CDE), color-stop(100%, 003087));/* Chrome,Safari4+ */
+background: -webkit-linear-gradient(239deg, #009CDE 0, #003087 100%);/* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(239deg, #009CDE 0, #003087 100%);/* Opera 11.10+ */
+background: -ms-linear-gradient(239deg, #009CDE 0, #003087 100%);/* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+background: linear-gradient(239deg, #009CDE 0, #003087 100%);/* W3C */
+color: #fff;
+border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.ramzarz {
+      margin: -607px 36px;
+      padding: 160px 134px;
+}
+.ramzarz h6 {
+      margin: -149px -123px;
+}
+.bitcoinimg img {
+      position: absolute;
+      margin: -99px -69px;
+      transform: scale(1.3);
+      border: 2px dashed #ff7b00;
+      padding: 4px 4px;
+      border-radius: 6px;
+}
+.bitlogo img {
+      margin: -393px -147px;
+      transform: scale(0.07);
+}
+.bitcoinaddress {
+      position: absolute;
+      margin: 82px -129px;
+      font-size: 16px;
+      border: 2px dashed #ff7b00;
+      padding: 4px 4px;
+      border-radius: 11px;
+}
+.notmoney {
+      margin: -274px 32px;
+      padding: 87px 578px;
+}
+.notmoney h6 {
+      margin: -74px -560px;
+}
+.ramz_arz {
+      margin: 0 24px;
+}
+.h3body {
+      position: absolute;
+      margin: -74px -558px;
+      text-align: right;
+}
+.h3body2 {
+      position: absolute; 
+      margin: -27px -557px;
+}
+.h3happy {
+      margin: 37px 0;
+      position: absolute;
+}
+.ahappy {
+      color: red;
+      text-decoration: none;
+}
+.alink {
+      text-decoration: none;
+      font-size: 20px;
+}
+.alink:hover {
+      text-decoration: none;
+}
+.ahappy:hover {
+      color: #ff7b00;
+      text-decoration: none;
+}
+.copyright {
+      text-align: center;
+      margin: -15px 0px;    
+}
